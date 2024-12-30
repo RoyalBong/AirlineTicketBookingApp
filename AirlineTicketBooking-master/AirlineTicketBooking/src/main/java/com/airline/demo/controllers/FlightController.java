@@ -20,6 +20,9 @@ import com.airline.demo.exception.ResourceNotFoundException;
 import com.airline.demo.model.Flight;
 import com.airline.demo.service.FlightService;
 
+/**
+ * This is  flight controller
+ */
 @RequestMapping("/airlineticketbooking")
 @RestController
 public class FlightController {
